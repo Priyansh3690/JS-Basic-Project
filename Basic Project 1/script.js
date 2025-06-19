@@ -3,10 +3,6 @@ const buttons = document.querySelectorAll('.button');
 const body = document.getElementById('body');
 const history_list = document.getElementById('history_list');
 
-// body.addEventListener('click',()=>{
-
-// });
-
 buttons.forEach(b => {
     b.addEventListener('mouseover', (e) => {
         if (e.target.id == 'red') {
