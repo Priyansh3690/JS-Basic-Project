@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic Project 2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <h1>Welcome to Fun Number Guessing Game</h1>
+    <h2>Hello!, This is Fun Number Guessing Game.</h2>
+    <p>This is a simple number guessing game Between 1 and 100, We Store your Guess Number</p>
+    <div class="form">
+        <form id="form">
+            <label for="num">Guess the Number:</label>
+            <input type="text" id="num" name="num" required>
+            <span class="error" id="error"></span>
+            <button type="submit">Submit</button>
+            <label for="count">Attempt Remaining: <span id="count">10</span></label>
+            <label> Correct Number Guess: <span id="correctNumber">0</span></label>
+        </form>
+    </div>
+    <div class="container">
+        <div class="form">
+            Previous Guesses:
+            <ul id="guesses">
+            </ul>
+        </div>
+        <div class="form">
+            Number Generated:
+            <ul id="generated">
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <p>
+            &copy; 2025 Basic Project 2. All rights reserved.
+            <br>
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
